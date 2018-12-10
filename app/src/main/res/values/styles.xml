@@ -1,0 +1,12 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarStyle">@style/AppThemeActionBarLogo</item>
+        <item name="colorAccent">@color/bg_main</item>
+    </style>
+    <style name="AppThemeActionBarLogo" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/bg_main</item>
+        <item name="backgroundStacked">@color/bg_button</item>
+        <item name="logo">@drawable/logo</item>
+        <item name="displayOptions">useLogo|showHome</item>
+    </style>
+</resources>
